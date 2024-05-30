@@ -1,0 +1,36 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  width: 100%;
+  background: linear-gradient(to bottom, #1554F6, #0D3AB8);
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Ensure the background covers the full height even when scrolling */
+}
+
+
+
+
+.triangle-shadow {
+  position: relative;
+  width: 100%;
+  height: 200px; /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+.triangle{
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  width: 30px;
+  height: 0;
+  background: linear-gradient(to bottom, #1554F6, #0D3AB8) !important;
+  border-left: 100px solid transparent; 
+  border-bottom: 100px solid rgba(0, 0, 0, 0.059); 
+  z-index: 1;
+}
